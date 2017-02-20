@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
     MyCustomAdapter myAdapter;
 
 
+    //Just Testing
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
         myRecycler = ((RecyclerView) findViewById(R.id.recyclerView));
         myAdapter = new MyCustomAdapter(this, Data.getData());
